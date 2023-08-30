@@ -1,0 +1,26 @@
+html file :
+<html lang="en">
+<head>
+    <title>door</title>
+    <link rel="stylesheet" href="door.css">
+</head>
+<body>
+    <h1>CLICK THE BUTTON TO ON AND OFF THE BULB..!</h1>
+    <div>
+        <img id="image" src="gateopen1.jpg" alt="open">
+    </div>
+    <div>
+        <button id="open" onclick="gate_open()">open</button>
+        <button id="close" onclick="gate_close()">close</button>
+    </div>
+    <script>
+        function gate_open(){
+    document.getElementById('image').src="gateopen1.jpg";
+} 
+function gate_close(){
+document.getElementById('image').src ="gateclose1.jpg";
+}
+    </script>
+</body>
+</html>
+
